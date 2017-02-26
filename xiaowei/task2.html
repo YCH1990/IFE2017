@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>HTML标签——小薇学院任务一</title>
+<link rel="stylesheet" type="text/css" href="task2.css">
+</head>
+<body>
+<header>
+  <nav>
+	<ul>
+		<li ><a href="xxxxxxx">主页</a></li>
+		<li ><a href="xxxxxxx">页面1</a></li>
+		<li ><a href="xxxxxxx">页面2</a></li>
+		<li ><a href="xxxxxxx">页面3</a></li>
+	</ul>
+  </nav>
+</header>
+<main>
+	<section id="s1">
+		<h1>简单文本</h1>
+		<p>这是一个段落这是一个段落<span>span标签组合行内元素方便进行格式化</span>这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落<sub>这是一个下标sub</sub>这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落<sup>这是一个上标sup</sup>这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落	</p>
+		<p>这是一个段落<em>em强调的部分</em><strong>strong语气更强一点</strong>这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落<abbr title="全称是什么写在这里">缩写</abbr>这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落<del>这是一个段落</del><ins>插入文本</ins>这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落。引用一句话：<q>秋天，这北国的秋天，若留得住的话，我愿把寿命的三分之二折去，换得一个三分之一的零头。</q></p>
+		<p>下面是一大段引用文字</p>
+		<blockquote>
+			<p>秋天，无论在什么地方的秋天，总是好的；可是啊，北国的秋，却特别地来得清，来得静，来得悲凉。我的不远千里，要从杭州赶上青岛，更要从青岛赶上北平来的理由，也不过想饱尝一尝这“秋”，这故都的秋味。</p>
+			<p>江南，秋当然也是有的；但草木雕得慢，空气来得润，天的颜色显得淡，并且又时常多雨而少风；一个人夹在苏州上海杭州，或厦门香港广州的市民中间，浑浑沌沌地过去，只能感到一点点清凉，秋的味，秋的色，秋的意境与姿态，总看不饱，尝不透，赏玩不到十足。秋并不是名花，也并不是美酒，那一种半开，半醉的状态，在领略秋的过程上，是不合适的。</p>
+		</blockquote>
+		<div><img src="201611.jpg" alt="秋景摄于颐和园" height="90px" width="120px"></div>
+	</section>
+	<section id="s2">
+		<h1>列表</h1>
+		<ul class="first_list">无序列表：
+			<li>项目一</li>
+			<li>项目二</li>
+			<li>项目三</li>
+		</ul>
+		<ol class="first_list">有序列表
+			<li>项目一</li>
+			<li>项目二</li>
+			<li>项目三：
+				<ul class="second_list">
+				<li>子项目一</li>
+				<li>子项目二</li>
+				<li>子项目三</li>
+				</ul>
+			</li>
+		</ol>		
+	</section>
+	<section id="s3">
+		<h1>表格</h1>
+		<table >
+			<caption>表格标题</caption>
+			<thead>
+				<tr>
+					<th>表头单元格</th>
+					<th>表头单元格</th>
+					<th colspan="2">表头跨两行</th>					
+					<th>嵌套其他标签</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>数据单元格</td>
+					<td>数据单元格</td>
+					<td>数据单元格</td>
+					<td>数据单元格</td>
+					<td>
+						<p>段落1</p>
+						<p>段落2</p>
+					</td>					
+				</tr>
+				<tr>
+					<td colspan="3">数据跨三行</td>
+					<td>数据单元格</td>
+					<td>
+					<p>另一个表格</p>
+						<table>
+							<tr>
+								<td>单元格</td>
+								<td>单元格</td>
+								<td>单元格</td>
+							</tr>
+							<tr>
+								<td>单元格</td>
+								<td>单元格</td>
+								<td>&nbsp;</td>
+							</tr>
+						</table>
+					</td>					
+				</tr>
+				<tr>
+					<td>数据单元格</td>
+					<td rowspan="3">数据跨三列</td>
+					<td>数据单元格</td>
+					<td>数据单元格</td>
+					<td>数据单元格</td>					
+				</tr>
+				<tr>
+					<td>数据单元格</td>					
+					<td>数据单元格</td>
+					<td>数据单元格</td>
+					<td>数据单元格</td>					
+				</tr>
+				<tr>
+					<td>数据单元格</td>
+					<td>数据单元格</td>
+					<td>数据单元格</td>
+					<td>数据单元格</td>					
+				</tr>
+				<tr>
+					<td>数据单元格</td>
+					<td>数据单元格</td>
+					<td>数据单元格</td>
+					<td>数据单元格</td>
+					<td>
+					<ul>无序列表：
+						<li>列表项</li>
+						<li>列表项</li>
+						<li>列表项</li>
+					</ul>
+					</td>					
+				</tr>
+				
+			</tbody>
+			<tfoot></tfoot>
+		</table>
+	</section>
+	<section id="s4">
+		<h1>表单</h1>
+		
+		<form name="xxxx" action="XXXXXXX.asp" method="post/get" enctype="multipart/form-data">
+			<fieldset>
+			<legend>组合表单内元素并添加标题</legend>
+			<div class="table_row">
+				<p class="table_cell_1">单行文本：</p><input class="table_cell_2" type="text" required="required" value="输入字段的初始值" placehoplder="提示信息" />
+			</div>
+			<div class="table_row">
+				<p class="table_cell_1">密码：</p><input class="table_cell_2" type="password" value="输入字段的初始值" />
+			</div>
+			<div class="table_row">
+				<p class="table_cell_1">输入文本：</p><textarea class="table_cell_2" rows="3" cols="20">文本输入域</textarea>
+			</div>
+			<div class="table_row">
+				<p class="table_cell_1">多选框：</p>
+				<div class="table_cell_2">
+					选项1<input type="checkbox" name="s1" value="s1" /><br/>
+					选项2<input type="checkbox" name="s2" value="s2" /><br/>
+					选项3<input type="checkbox" name="s3" value="s3" /><br/>
+					选项4<input type="checkbox" name="s4" value="s4" /><br/>
+					选项5<input type="checkbox" name="s5" value="s5" /><br/>
+				</div>
+			</div>
+				<div class="table_row">
+				<p class="table_cell_1">下拉菜单：</p>
+				<select class="table_cell_2" name="cars">
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+				<option value="fiat" selected="selected">Fiat</option>
+				<option value="audi">Audi</option>
+				</select>
+			</div>
+			</fieldset>
+			<input class="sub_button" type="submit" value="提交按钮"></input>
+		</form>
+		
+				
+	</section>
+	
+</main>
+<aside>
+	<h1>侧边栏</h1>
+	<p>一些辅助性内容</p>
+</aside>
+<footer>
+	<address>作者或拥有者的联系信息 <a href="mailto:xxxxx@xxx">Email</a></address>
+</footer>
+</body>
+</html>
